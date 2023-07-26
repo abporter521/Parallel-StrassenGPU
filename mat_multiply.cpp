@@ -237,7 +237,7 @@ if(DEBUG){
     printf("Beginning Addition Tests");
    // dim3 threadsPerBlock(16,16);
     //dim3 numBlocks(size/ threadsPerBlock.x, size/ threadsPerBlock.y);
-    MatrixAdd(A,B,C);
+    //MatrixAdd<<<numBlocks, threadsPerBlock>>>(A,B,C);
 
     //cudaDeviceSynchronize(); 
     
