@@ -8,5 +8,3 @@ struct Matrix{
 };
 
 #endif
-
-__global__ void MatrixAdd(Matrix A, Matrix B, Matrix&C);
