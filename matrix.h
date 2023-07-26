@@ -9,4 +9,4 @@ struct Matrix{
 
 #endif
 
-void callMatrixAdd(Matrix A, Matrix B, Matrix&C);
+__global__ void MatrixAdd(Matrix A, Matrix B, Matrix&C);

@@ -22,7 +22,7 @@
 
 // Function prototype for StrassensAlgorithm
 //Matrix StrassensAlgorithm(const Matrix& A, const Matrix& B, int size);
-
+__global__ void MatrixAdd(Matrix A, Matrix B, Matrix& C);
 
 /*
 __global__ void MatrixSubtract(Matrix A, Matrix B, Matrix C);
@@ -237,7 +237,7 @@ if(DEBUG){
     printf("Beginning Addition Tests");
    // dim3 threadsPerBlock(16,16);
     //dim3 numBlocks(size/ threadsPerBlock.x, size/ threadsPerBlock.y);
-    callMatrixAdd(A,B,C);
+    MatrixAdd(A,B,C);
 
     //cudaDeviceSynchronize(); 
     
