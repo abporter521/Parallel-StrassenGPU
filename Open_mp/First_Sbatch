@@ -1,0 +1,40 @@
+Welcome To Strassen Algorith OpenMP
+Growing Matrix Sizes, Fixed Thread Count = 10, Threshold = 2 x 2 Matrix
+Matrix Size = 4^2, Threads = 10, time (sec) =   0.4063, brute_time =   0.0000
+Matrix Size = 16^2, Threads = 10, time (sec) =   0.0073, brute_time =   0.0000
+Matrix Size = 64^2, Threads = 10, time (sec) =   0.0146, brute_time =   0.0003
+Matrix Size = 256^2, Threads = 10, time (sec) =   0.1799, brute_time =   0.0144
+Matrix Size = 1024^2, Threads = 10, time (sec) =  10.3486, brute_time =   3.2899
+Matrix Size = 2048^2, Threads = 10, time (sec) =  73.5458, brute_time =  25.4073
+
+Growing Matrix Sizes, Fixed Thread Count = 10, Threshold = 4 x 4 Matrix
+Matrix Size = 4^2, Threads = 10, time (sec) =   0.0024, brute_time =   0.0000
+Matrix Size = 16^2, Threads = 10, time (sec) =   0.0063, brute_time =   0.0000
+Matrix Size = 64^2, Threads = 10, time (sec) =   0.0080, brute_time =   0.0003
+Matrix Size = 256^2, Threads = 10, time (sec) =   0.0422, brute_time =   0.0140
+Matrix Size = 1024^2, Threads = 10, time (sec) =   1.6740, brute_time =   3.2912
+Matrix Size = 2048^2, Threads = 10, time (sec) =  11.7166, brute_time =  27.7079
+
+Growing Matrix Sizes, Fixed Thread Count = 10, Threshold = 8 x 8 Matrix
+Matrix Size = 4^2, Threads = 10, time (sec) =   0.0023, brute_time =   0.0000
+Matrix Size = 16^2, Threads = 10, time (sec) =   0.0064, brute_time =   0.0000
+Matrix Size = 64^2, Threads = 10, time (sec) =   0.0066, brute_time =   0.0003
+Matrix Size = 256^2, Threads = 10, time (sec) =   0.0177, brute_time =   0.0147
+Matrix Size = 1024^2, Threads = 10, time (sec) =   0.3610, brute_time =   3.2830
+Matrix Size = 2048^2, Threads = 10, time (sec) =   2.4389, brute_time =  26.2066
+
+Growing Matrix Sizes, Fixed Thread Count = 10, Threshold = 16 x 16 Matrix
+Matrix Size = 4^2, Threads = 10, time (sec) =   0.0024, brute_time =   0.0000
+Matrix Size = 16^2, Threads = 10, time (sec) =   0.0020, brute_time =   0.0000
+Matrix Size = 64^2, Threads = 10, time (sec) =   0.0064, brute_time =   0.0003
+Matrix Size = 256^2, Threads = 10, time (sec) =   0.0134, brute_time =   0.0169
+Matrix Size = 1024^2, Threads = 10, time (sec) =   0.1366, brute_time =   3.2827
+Matrix Size = 2048^2, Threads = 10, time (sec) =   0.8222, brute_time =  25.3858
+
+Fixed Matrix Size = 1024 x 1024, Growing Thread Count, Threshold = 4 x 4 Matrix
+Matrix Size = 1024^2, Threads = 1, time (sec) =   3.0289, brute_time =   3.2839
+Matrix Size = 1024^2, Threads = 2, time (sec) =   3.3208, brute_time =   3.2836
+Matrix Size = 1024^2, Threads = 4, time (sec) =   2.5136, brute_time =   3.2833
+Matrix Size = 1024^2, Threads = 8, time (sec) =   1.4346, brute_time =   3.2838
+Matrix Size = 1024^2, Threads = 16, time (sec) =   1.4877, brute_time =   3.2842
+Matrix Size = 1024^2, Threads = 32, time (sec) =   1.7441, brute_time =   3.2977
